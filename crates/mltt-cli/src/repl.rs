@@ -94,7 +94,7 @@ fn read_eval(
     file: &File,
 ) -> Result<(Rc<syntax::Term>, Rc<domain::Type>), Diagnostic<FileSpan>> {
     let lexer = Lexer::new(&file);
-    let concrete_term = parser::parse_term(lexer)?;;
+    let concrete_term = parser::parse_term(lexer)?;
 
     let (core_term, ty) =
         mltt_elaborate::synth_term(MetaInsertion::Yes, &context, metas, &concrete_term)?;
