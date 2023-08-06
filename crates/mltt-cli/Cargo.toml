@@ -8,7 +8,7 @@ edition = "2018"
 publish = false
 
 [dependencies]
-language-reporting = { git = "https://github.com/nikomatsakis/language-reporting", branch = "remove-codespan-dep" }
+language-reporting = "0.4.0"
 mltt-concrete = { path = "../mltt-concrete"}
 mltt-core = { path = "../mltt-core"}
 mltt-elaborate = { path = "../mltt-elaborate"}

@@ -9,7 +9,7 @@ publish = false
 
 [dependencies]
 im = "15.1.0"
-language-reporting = { git = "https://github.com/nikomatsakis/language-reporting", branch = "remove-codespan-dep" }
+language-reporting = "0.4.0"
 log = "0.4"
 mltt-span = { path = "../mltt-span" }
 pretty = "0.5"
